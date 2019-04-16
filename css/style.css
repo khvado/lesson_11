@@ -1,0 +1,185 @@
+.container {
+	max-width: 1170px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navigation-ul {
+	display: flex;
+}
+
+.navigation-li {
+	margin-right: 75px;
+}
+
+.navigation-a {
+ 	color: #818181;
+ 	font-size: 16px;
+}
+
+.header {
+	margin-top: 40px;
+}
+
+.header h1 {
+	font-size: 28px;
+}
+
+.burger {
+	display: none;
+}
+
+.middle_1 img {
+	width: 100%;
+}
+
+ .middle_text {
+	margin-top: 100px;
+	margin-left: 50px;
+}
+
+ .middle_text h3 {
+    color: #c7c1b6;
+ }
+
+ .middle_text h1 {
+    color: #818181;
+    font-size: 25px;
+    margin-top: 15px;
+ }
+
+ .middle_text p {
+ 	margin-top: 20px;
+ 	width: 100%;
+ }
+
+ .middle_text input {
+ 	margin-top: 30px;
+ 	border: none;
+ 	font-size: 15px;
+ 	color: #c7c1b6;
+ }
+
+ .middle_2 {
+ 	margin-top: 110px;
+ 	width: 100%;
+ }
+
+ .middle_2 h3 {
+    color: #c7c1b6;
+    margin-top: 15px;
+ }
+
+ .middle_2 h1 {
+    color: #818181;
+    font-size: 25px;
+    margin-top: 15px;
+ }
+
+ .middle_2 p {
+ 	width: 420px;
+ 	margin-top: 15px;
+ }
+
+ .images img {
+ 	width: 420px;
+ }
+
+ .position {
+ 	width: 1000px;
+ 	margin: 0 auto;
+ }
+
+ .middle_3 {
+ 	background-color: #f0f0f0;
+ 	margin-top: 110px;
+ 	height: 250px;
+ 	text-align: center;
+ }
+
+
+ .middle_3 h1 {
+ 	font-size: 25px;
+ 	margin-top: 20px;
+ }
+
+ .middle_3 input {
+ 	border-bottom: 4px solid #000;
+ 	color: #c7c1b6;
+ 	background-color: #f0f0f0;
+ 	font-size: 15px;
+    width: 270px;
+    margin-top: 40px;
+ }
+
+ .position_2 {
+ 	padding-top: 60px;
+ }
+
+ .load_more {
+ 	border: 1px solid;
+ 	color: #6c6c6c;
+ 	width: 120px;
+ 	margin: 0 auto;
+ 	text-align: center;
+ 	padding: 5px;
+ 	margin-top: 100px;
+ }
+ .load_more a {
+ 	color: #6c6c6c;
+ 	font-size: 24px;
+ }
+
+.footer_1 {
+	background-color: #f0f0f0;
+	height: 60px;
+	margin-top: 50px;
+}
+
+.title_5 {
+	margin-left: 750px;
+}
+
+.float_left {
+	float: left;
+}
+
+.float_right {
+	float: right;
+}
+
+.position_3 {
+	padding-top: 20px;
+}
+
+/*responsive*/
+
+@media (max-width: 1065px) {
+	.flex{
+		flex-direction: column;
+	}
+
+	.position {
+		width: 100%;
+	}
+
+	.burger {
+		display: block;
+	}
+
+	.images {
+    	margin-top: 70px;
+	}
+
+	nav {
+		display: none;
+	}
+}
+
+
